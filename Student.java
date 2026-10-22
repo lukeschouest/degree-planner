@@ -1,11 +1,12 @@
 import java.util.HashSet;
+
 public class Student {
-private String major;
-private int yearStarted;
-private int completedCredits;
-private int minCredits;
-private int maxCredits;
-private HashSet<String> completedCourses;
+    private String major;
+    private int yearStarted;
+    private int completedCredits;
+    private int minCredits;
+    private int maxCredits;
+    private HashSet<String> completedCourses;
 
     public Student (String major, int yearStarted, int completedCredits, int minCredits, int maxCredits) {
         this.major = major;
