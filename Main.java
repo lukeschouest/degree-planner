@@ -4,6 +4,7 @@ public class Main {
         
         tester.addPrerequisite("CSCI 1000");
 
+        System.out.println(tester);
         
     }
 }

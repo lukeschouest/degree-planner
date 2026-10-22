@@ -35,7 +35,7 @@ public class Course {
 
     @Override 
     public String toString() {
-        return courseName + courseCode + creditHour + prerequisites;
+        return courseName + ", " + courseCode + ", " + creditHour + "\n" + prerequisites;
     }
     
 }
