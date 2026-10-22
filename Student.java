@@ -40,8 +40,18 @@ private HashSet<String> completedCourses;
         return this.completedCourses;
     }
 
-    public void addCompletedCourse(String courseCode) {
-        completedCourses.add(courseCode);
+    public void addCompletedCourse(String...courseCode) {
+        for (String course : courseCode) {
+            completedCourses.add(course);
+        }
     }
 
+    @Override 
+    public String toString() {
+        return "Major: " + major + "\n"
+        + "Year Started: " + yearStarted + "\n"
+        + "Completed Credits: " + completedCredits + "\n" 
+        + "Desired Credits per semester: " + minCredits + "-" + maxCredits + "\n" 
+        + "Completed Courses: " + completedCourses; 
+    }
 }

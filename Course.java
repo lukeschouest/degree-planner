@@ -29,8 +29,10 @@ public class Course {
         return this.prerequisites;
     }
 
-    public void addPrerequisite(String prerequisite) {
-        prerequisites.add(prerequisite);
+    public void addPrerequisite(String...prerequisite) {
+        for(String prereq : prerequisite) {
+            prerequisites.add(prereq);
+        }
     }
 
     @Override 
