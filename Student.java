@@ -46,6 +46,10 @@ private HashSet<String> completedCourses;
         }
     }
 
+    public boolean hasCompletedCourse(String courseCode) {
+        return this.completedCourses.contains(courseCode);
+    }
+
     @Override 
     public String toString() {
         return "Major: " + major + "\n"

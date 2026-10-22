@@ -6,8 +6,10 @@ public class Main {
         student1.addCompletedCourse("CSCI 1581","CSCI 2120","CSCI 2121");
       
         tester.addPrerequisite("CSCI 1000");
-        
+
         System.out.println(student1);
+
+        System.out.println(student1.hasCompletedCourse("CSCI 2025"));
         
     }
 }
