@@ -7,11 +7,10 @@ private int minCredits;
 private int maxCredits;
 private HashSet<String> completedCourses;
 
-
     public Student (String major, int yearStarted, int completedCredits, int minCredits, int maxCredits) {
         this.major = major;
         this.yearStarted = yearStarted;
-        this. completedCredits = completedCredits;
+        this.completedCredits = completedCredits;
         this.minCredits = minCredits;
         this.maxCredits = maxCredits;
         this.completedCourses = new HashSet<>();
@@ -40,4 +39,9 @@ private HashSet<String> completedCourses;
     public HashSet<String> getCompletedCourses() {
         return this.completedCourses;
     }
+
+    public void addCompletedCourse(String courseCode) {
+        completedCourses.add(courseCode);
+    }
+
 }
