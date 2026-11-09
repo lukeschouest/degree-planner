@@ -1,4 +1,56 @@
 courseCode,courseName,creditHours
+ANTH 1010,Peoples of the World,3
+ANTH 2052,Introduction to Cultural Anthropology,3
+BIOS 1081,Biology I Laboratory,1
+BIOS 1083,Biology I,3
+CSCI 1581,Software Design Lab I,1
 CSCI 1583,Software Design I,3
-CSCI 2120,Software Design II,3
+CSCI 2120,Software Design and Development II,3
+CSCI 2121,Software Design & Dev Lab II,1
 CSCI 2125,Data Structures,3
+CSCI 2467,Systems Programming Concepts,3
+CSCI 3080,Ethics in Computing Profession,1
+CSCI 3090,Undergraduate Seminar,1
+CSCI 3102,Intro to Theory of Computation,3
+CSCI 3350,Computer Architecture,3
+CSCI 4000,Comprehensive Exam,0
+CSCI 4101,Analysis of Algorithms,3
+CSCI 4125,Data Models and DBS Syst,3
+CSCI 4311,Computer Networks & Telecomm,3
+CSCI 4401,Principles Operating Systems I,3
+CSCI 4501,Programming Language Structure,3
+ECON 1203,Principles of Microeconomics,3
+ECON 1330,Financial Literacy,3
+ENGL 1157,English Composition 1,3
+ENGL 1158,English Composition 2,3
+ENGL 2152,Technical Writing,3
+FA 1010,Art Appreciation,3
+FREN 1001,Basic French I,3
+FREN 1002,Basic French II,3
+FTA 2650,Oral Communications,3
+GEOG 1001,World Regional Geography,3
+GEOG 1002,World Regional Geography,3
+GER 1001,Basic German I,3
+GER 1002,Basic German II,3
+HIST 1001,World History to 1600,3
+HIST 1002,World History since 1600,3
+HIST 2501,U.S. History I,3
+HIST 2502,U.S. History II,3
+MATH 1115,Applied Algebra,3
+MATH 1125,Precalculus Algebra,3
+MATH 1126,Precalculus Trigonometry,3
+MATH 2114,Calculus I,4
+MATH 2124,Calculus II,4
+MATH 2314,Elementary Statistical Methods,3
+MATH 3721,Intro to Discrete Structures,3
+PHIL 1000,Introduction to Philosophy,3
+PHIL 2201,Ethics,3
+POLI 2151,U.S. Government and Politics,3
+PSYC 1000,General Psychology,3
+SOC 1051,Introductory Sociology,3
+SOC 2962,Current Social Problems,3
+SPAN 1001,Basic Spanish I,3
+SPAN 1002,Basic Spanish II,3
+UNIV 1001,University Success,1
+URBN 1000,Introduction to Cities,3
+WGS 2010,Introduction to Women’s Studies,3

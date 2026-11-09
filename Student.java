@@ -7,6 +7,7 @@ public class Student {
     private int minCredits;
     private int maxCredits;
     private HashSet<String> completedCourses;
+    private HashSet<String> inProgressCourses;
 
     public Student (String major, int yearStarted, int completedCredits, int minCredits, int maxCredits) {
         this.major = major;
@@ -15,6 +16,7 @@ public class Student {
         this.minCredits = minCredits;
         this.maxCredits = maxCredits;
         this.completedCourses = new HashSet<>();
+        this.inProgressCourses = new HashSet<>();
     }
 
     public String getMajor() {
@@ -49,6 +51,16 @@ public class Student {
 
     public boolean hasCompletedCourse(String courseCode) {
         return this.completedCourses.contains(courseCode);
+    }
+
+    public void addInProgressCourse(String...courseCode) {
+        for (String course : courseCode) {
+            inProgressCourses.add(course);
+        }
+    }
+    
+    public HashSet<String> getInProgressCourses() {
+        return new HashSet<>(inProgressCourses);
     }
 
     @Override 

@@ -1,10 +1,10 @@
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
-
-import javax.xml.catalog.Catalog;
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
+
+        CourseCatalog catalog = new CourseCatalog();
         
         Scanner file = new Scanner(new File("courses.csv"));
 
@@ -21,13 +21,12 @@ public class Main {
 
             Course course = new Course(courseName, courseCode, creditHours);
 
-            CourseCatalog catalog = new CourseCatalog();
-
             catalog.addCourse(course);
-
-            System.out.println(catalog.getAllCourses());
         }
 
+        System.out.println(catalog.getAllCourses());
+
+
         file.close();
-    }
+    } 
 }
