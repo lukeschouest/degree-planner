@@ -38,7 +38,16 @@ public class Course {
 
     @Override 
     public String toString() {
-        return courseName + ", " + courseCode + ", " + creditHour + "\n" + prerequisites;
+        String prerequisiteList;
+        if (prerequisites.isEmpty()) {
+            prerequisiteList = "None";
+        } else {
+            prerequisiteList = String.join(", ", prerequisites);
+        }
+
+        return courseCode + " - " + courseName + "\n"
+                + "  Credits: " + creditHour + "\n"
+                + "  Prerequisites: " + prerequisiteList;
     }
     
 }
